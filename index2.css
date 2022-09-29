@@ -40,13 +40,13 @@ h1, h3, p{
     display: block;
     margin-left: auto;
     margin-right: auto;
-   
     background-color: white;
-    width:400px;
+    width:410px;
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(102,0,102)
+    border-color: rgb(102,0,102);
+    padding: 10px
     
 }
     
