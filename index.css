@@ -61,7 +61,6 @@ a{
     margin: auto;
     text-align: center;
     width: 100px;
-    border-spacing: 10px;
 
 
     background-color: rgba(0, 47, 167, .5);
@@ -86,7 +85,7 @@ a{
     background-color: rgba(0, 47, 167, .8);
 
     border:2px;
-    border-color:yellow;
+    border-color:darkblue;
     border-style: solid;
     
 }
@@ -120,7 +119,7 @@ a{
     background-color: rgba(0, 47, 167, .8);
 
     border:2px;
-    border-color:yellow;
+    border-color:darkblue;
     border-style: solid;
     
 }
