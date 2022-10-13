@@ -47,10 +47,7 @@ h1, h3, p{
     padding: 10px;
 
     /* In this bit i'm trying to center the charts */
-    /*This works initially but after 
-    refreshing the page the charts go back to the left*/
-    display: block;
-    margin: auto;
+    margin-left: 118px;
     
     
 }
