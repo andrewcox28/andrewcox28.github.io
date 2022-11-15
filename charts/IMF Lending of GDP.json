@@ -9,7 +9,7 @@
     "color": "black"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/andrewcox28/andrewcox28.github.io/main/data_IMF_creditOutstanding.csv"
+    "url": "https://raw.githubusercontent.com/andrewcox28/andrewcox28.github.io/main/data/data_IMF_creditOutstanding.csv"
   },
   "transform": [{"calculate": "datum.Totals/datum.GDP", "as": "Debt_GDP"}],
   "height": 300,
