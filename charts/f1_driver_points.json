@@ -1,0 +1,2408 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A scatterplot showing horsepower and miles per gallons for various cars.",
+  "data": {
+    "values": [
+      {
+        "Nr": 1,
+        "Driver": "Juan Manuel Fangio",
+        "Average Points": 16.24,
+        "Total Points": 828.1,
+        "Total GPs": 51
+      },
+      {
+        "Nr": 2,
+        "Driver": "Lewis Hamilton",
+        "Average Points": 15.49,
+        "Total Points": 4807.5,
+        "Total GPs": 309
+      },
+      {
+        "Nr": 3,
+        "Driver": "Alberto Ascari",
+        "Average Points": 13.41,
+        "Total Points": 429,
+        "Total GPs": 32
+      },
+      {
+        "Nr": 4,
+        "Driver": "Michael Schumacher",
+        "Average Points": 12.94,
+        "Total Points": 3961,
+        "Total GPs": 306
+      },
+      {
+        "Nr": 5,
+        "Driver": "Alain Prost",
+        "Average Points": 12.61,
+        "Total Points": 2508.5,
+        "Total GPs": 199
+      },
+      {
+        "Nr": 6,
+        "Driver": "Giuseppe Farina",
+        "Average Points": 12.4,
+        "Total Points": 421.5,
+        "Total GPs": 34
+      },
+      {
+        "Nr": 7,
+        "Driver": "Max Verstappen",
+        "Average Points": 12.11,
+        "Total Points": 2005.5,
+        "Total GPs": 162
+      },
+      {
+        "Nr": 8,
+        "Driver": "Jim Clark",
+        "Average Points": 11.9,
+        "Total Points": 857,
+        "Total GPs": 72
+      },
+      {
+        "Nr": 9,
+        "Driver": "Ayrton Senna",
+        "Average Points": 11.64,
+        "Total Points": 1874.5,
+        "Total GPs": 161
+      },
+      {
+        "Nr": 10,
+        "Driver": "Jackie Stewart",
+        "Average Points": 11.34,
+        "Total Points": 1123,
+        "Total GPs": 99
+      },
+      {
+        "Nr": 11,
+        "Driver": "Sebastian Vettel",
+        "Average Points": 11.14,
+        "Total Points": 3320,
+        "Total GPs": 298
+      },
+      {
+        "Nr": 12,
+        "Driver": "Mike Hawthorn",
+        "Average Points": 10.01,
+        "Total Points": 450.6,
+        "Total GPs": 45
+      },
+      {
+        "Nr": 13,
+        "Driver": "Damon Hill",
+        "Average Points": 9.63,
+        "Total Points": 1108,
+        "Total GPs": 115
+      },
+      {
+        "Nr": 14,
+        "Driver": "Jose Froilan Gonzalez",
+        "Average Points": 9.54,
+        "Total Points": 248.1,
+        "Total GPs": 26
+      },
+      {
+        "Nr": 15,
+        "Driver": "Valtteri Bottas",
+        "Average Points": 8.9,
+        "Total Points": 1796,
+        "Total GPs": 199
+      },
+      {
+        "Nr": 16,
+        "Driver": "Juan Pablo Montoya",
+        "Average Points": 8.87,
+        "Total Points": 834,
+        "Total GPs": 94
+      },
+      {
+        "Nr": 17,
+        "Driver": "Stirling Moss",
+        "Average Points": 8.79,
+        "Total Points": 580,
+        "Total GPs": 66
+      },
+      {
+        "Nr": 18,
+        "Driver": "Mika Hakkinen",
+        "Average Points": 8.73,
+        "Total Points": 1406,
+        "Total GPs": 161
+      },
+      {
+        "Nr": 19,
+        "Driver": "Piero Taruffi",
+        "Average Points": 8.61,
+        "Total Points": 155,
+        "Total GPs": 18
+      },
+      {
+        "Nr": 20,
+        "Driver": "Jim Rathmann",
+        "Average Points": 8.55,
+        "Total Points": 94,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 21,
+        "Driver": "Nico Rosberg",
+        "Average Points": 8.53,
+        "Total Points": 1757,
+        "Total GPs": 206
+      },
+      {
+        "Nr": 22,
+        "Driver": "Denny Hulme",
+        "Average Points": 8.46,
+        "Total Points": 947,
+        "Total GPs": 112
+      },
+      {
+        "Nr": 23,
+        "Driver": "Nelson Piquet",
+        "Average Points": 8.37,
+        "Total Points": 1700,
+        "Total GPs": 203
+      },
+      {
+        "Nr": 24,
+        "Driver": "Fernando Alonso",
+        "Average Points": 8.26,
+        "Total Points": 2925,
+        "Total GPs": 354
+      },
+      {
+        "Nr": 25,
+        "Driver": "Nigel Mansell",
+        "Average Points": 8.18,
+        "Total Points": 1521,
+        "Total GPs": 186
+      },
+      {
+        "Nr": 26,
+        "Driver": "Charles Leclerc",
+        "Average Points": 8.17,
+        "Total Points": 860,
+        "Total GPs": 102
+      },
+      {
+        "Nr": 27,
+        "Driver": "Richie Ginther",
+        "Average Points": 8.16,
+        "Total Points": 424.5,
+        "Total GPs": 52
+      },
+      {
+        "Nr": 28,
+        "Driver": "Wolfgang von Trips",
+        "Average Points": 8.14,
+        "Total Points": 219.7,
+        "Total GPs": 27
+      },
+      {
+        "Nr": 29,
+        "Driver": "Kimi Räikkönen",
+        "Average Points": 8.11,
+        "Total Points": 2830,
+        "Total GPs": 349
+      },
+      {
+        "Nr": 30,
+        "Driver": "Jody Scheckter",
+        "Average Points": 8.03,
+        "Total Points": 899,
+        "Total GPs": 112
+      },
+      {
+        "Nr": 31,
+        "Driver": "Niki Lauda",
+        "Average Points": 7.96,
+        "Total Points": 1361,
+        "Total GPs": 171
+      },
+      {
+        "Nr": 32,
+        "Driver": "Carlos Reutemann",
+        "Average Points": 7.73,
+        "Total Points": 1128.5,
+        "Total GPs": 146
+      },
+      {
+        "Nr": 33,
+        "Driver": "Phil Hill",
+        "Average Points": 7.72,
+        "Total Points": 370.3,
+        "Total GPs": 48
+      },
+      {
+        "Nr": 34,
+        "Driver": "Peter Revson",
+        "Average Points": 7.67,
+        "Total Points": 230,
+        "Total GPs": 30
+      },
+      {
+        "Nr": 35,
+        "Driver": "Bruce McLaren",
+        "Average Points": 7.57,
+        "Total Points": 756.5,
+        "Total GPs": 100
+      },
+      {
+        "Nr": 36,
+        "Driver": "Jack Brabham",
+        "Average Points": 7.55,
+        "Total Points": 944.3,
+        "Total GPs": 125
+      },
+      {
+        "Nr": 37,
+        "Driver": "David Coulthard",
+        "Average Points": 7.08,
+        "Total Points": 1741,
+        "Total GPs": 246
+      },
+      {
+        "Nr": 38,
+        "Driver": "Tony Brooks",
+        "Average Points": 7.07,
+        "Total Points": 268.5,
+        "Total GPs": 38
+      },
+      {
+        "Nr": 39,
+        "Driver": "Francois Cevert",
+        "Average Points": 7.04,
+        "Total Points": 324,
+        "Total GPs": 46
+      },
+      {
+        "Nr": 40,
+        "Driver": "Emerson Fittipaldi",
+        "Average Points": 6.94,
+        "Total Points": 999,
+        "Total GPs": 144
+      },
+      {
+        "Nr": 41,
+        "Driver": "Luigi Villoresi",
+        "Average Points": 6.84,
+        "Total Points": 212,
+        "Total GPs": 31
+      },
+      {
+        "Nr": 42,
+        "Driver": "James Hunt",
+        "Average Points": 6.82,
+        "Total Points": 627,
+        "Total GPs": 92
+      },
+      {
+        "Nr": 43,
+        "Driver": "Ludovico Scarfiotti",
+        "Average Points": 6.8,
+        "Total Points": 68,
+        "Total GPs": 10
+      },
+      {
+        "Nr": 44,
+        "Driver": "Gerhard Berger",
+        "Average Points": 6.79,
+        "Total Points": 1425.5,
+        "Total GPs": 210
+      },
+      {
+        "Nr": 45,
+        "Driver": "Olivier Gendebien",
+        "Average Points": 6.5,
+        "Total Points": 91,
+        "Total GPs": 14
+      },
+      {
+        "Nr": 46,
+        "Driver": "Mark Webber",
+        "Average Points": 6.4,
+        "Total Points": 1376,
+        "Total GPs": 215
+      },
+      {
+        "Nr": 47,
+        "Driver": "Luigi Musso",
+        "Average Points": 6.38,
+        "Total Points": 159.5,
+        "Total GPs": 25
+      },
+      {
+        "Nr": 48,
+        "Driver": "Felipe Massa",
+        "Average Points": 6.3,
+        "Total Points": 1696,
+        "Total GPs": 269
+      },
+      {
+        "Nr": 49,
+        "Driver": "Clay Regazzoni",
+        "Average Points": 6.28,
+        "Total Points": 829.5,
+        "Total GPs": 132
+      },
+      {
+        "Nr": 50,
+        "Driver": "Alan Jones",
+        "Average Points": 6.2,
+        "Total Points": 719,
+        "Total GPs": 116
+      },
+      {
+        "Nr": 51,
+        "Driver": "Ralf Schumacher",
+        "Average Points": 6.12,
+        "Total Points": 1102,
+        "Total GPs": 180
+      },
+      {
+        "Nr": 52,
+        "Driver": "Gilles Villeneuve",
+        "Average Points": 6.1,
+        "Total Points": 409,
+        "Total GPs": 67
+      },
+      {
+        "Nr": 53,
+        "Driver": "Jenson Button",
+        "Average Points": 6.03,
+        "Total Points": 1844.5,
+        "Total GPs": 306
+      },
+      {
+        "Nr": 54,
+        "Driver": "Karl Kling",
+        "Average Points": 6,
+        "Total Points": 66,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 54,
+        "Driver": "Peter Arundell",
+        "Average Points": 6,
+        "Total Points": 66,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 54,
+        "Driver": "Jochen Rindt",
+        "Average Points": 6,
+        "Total Points": 360,
+        "Total GPs": 60
+      },
+      {
+        "Nr": 57,
+        "Driver": "Graham Hill",
+        "Average Points": 5.99,
+        "Total Points": 1061,
+        "Total GPs": 177
+      },
+      {
+        "Nr": 58,
+        "Driver": "Jacky Ickx",
+        "Average Points": 5.98,
+        "Total Points": 682,
+        "Total GPs": 114
+      },
+      {
+        "Nr": 58,
+        "Driver": "John Surtees",
+        "Average Points": 5.98,
+        "Total Points": 664,
+        "Total GPs": 111
+      },
+      {
+        "Nr": 60,
+        "Driver": "Didier Pironi",
+        "Average Points": 5.97,
+        "Total Points": 418,
+        "Total GPs": 70
+      },
+      {
+        "Nr": 61,
+        "Driver": "Ronnie Peterson",
+        "Average Points": 5.94,
+        "Total Points": 731,
+        "Total GPs": 123
+      },
+      {
+        "Nr": 62,
+        "Driver": "Lorenzo Bandini",
+        "Average Points": 5.93,
+        "Total Points": 249,
+        "Total GPs": 42
+      },
+      {
+        "Nr": 63,
+        "Driver": "Rubens Barrichello",
+        "Average Points": 5.92,
+        "Total Points": 1906,
+        "Total GPs": 322
+      },
+      {
+        "Nr": 64,
+        "Driver": "Patrick Depailler",
+        "Average Points": 5.84,
+        "Total Points": 555,
+        "Total GPs": 95
+      },
+      {
+        "Nr": 65,
+        "Driver": "Dan Gurney",
+        "Average Points": 5.74,
+        "Total Points": 494,
+        "Total GPs": 86
+      },
+      {
+        "Nr": 66,
+        "Driver": "Daniel Ricciardo",
+        "Average Points": 5.65,
+        "Total Points": 1318,
+        "Total GPs": 231
+      },
+      {
+        "Nr": 67,
+        "Driver": "Peter Collins",
+        "Average Points": 5.55,
+        "Total Points": 177.7,
+        "Total GPs": 32
+      },
+      {
+        "Nr": 68,
+        "Driver": "Pedro Rodriguez",
+        "Average Points": 5.54,
+        "Total Points": 299,
+        "Total GPs": 54
+      },
+      {
+        "Nr": 69,
+        "Driver": "Felice Bonetto",
+        "Average Points": 5.53,
+        "Total Points": 83,
+        "Total GPs": 15
+      },
+      {
+        "Nr": 70,
+        "Driver": "Eddie Irvine",
+        "Average Points": 5.41,
+        "Total Points": 790,
+        "Total GPs": 146
+      },
+      {
+        "Nr": 71,
+        "Driver": "Tony Maggs",
+        "Average Points": 5.4,
+        "Total Points": 135,
+        "Total GPs": 25
+      },
+      {
+        "Nr": 72,
+        "Driver": "Mario Andretti",
+        "Average Points": 5.3,
+        "Total Points": 678,
+        "Total GPs": 128
+      },
+      {
+        "Nr": 73,
+        "Driver": "Jacques Villeneuve",
+        "Average Points": 5.28,
+        "Total Points": 861,
+        "Total GPs": 163
+      },
+      {
+        "Nr": 74,
+        "Driver": "Eugenio Castellotti",
+        "Average Points": 5.25,
+        "Total Points": 73.5,
+        "Total GPs": 14
+      },
+      {
+        "Nr": 75,
+        "Driver": "Jacques Laffite",
+        "Average Points": 5.24,
+        "Total Points": 923,
+        "Total GPs": 176
+      },
+      {
+        "Nr": 76,
+        "Driver": "Keke Rosberg",
+        "Average Points": 5.19,
+        "Total Points": 592,
+        "Total GPs": 114
+      },
+      {
+        "Nr": 77,
+        "Driver": "Jean Alesi",
+        "Average Points": 5.14,
+        "Total Points": 1034,
+        "Total GPs": 201
+      },
+      {
+        "Nr": 78,
+        "Driver": "Lando Norris",
+        "Average Points": 5.1,
+        "Total Points": 431,
+        "Total GPs": 81
+      },
+      {
+        "Nr": 79,
+        "Driver": "Elio de Angelis",
+        "Average Points": 5.09,
+        "Total Points": 550,
+        "Total GPs": 108
+      },
+      {
+        "Nr": 80,
+        "Driver": "Heinz-Harald Frentzen",
+        "Average Points": 5.03,
+        "Total Points": 785,
+        "Total GPs": 156
+      },
+      {
+        "Nr": 81,
+        "Driver": "Stuart Lewis-Evans",
+        "Average Points": 5,
+        "Total Points": 70,
+        "Total GPs": 14
+      },
+      {
+        "Nr": 82,
+        "Driver": "Sergio Perez",
+        "Average Points": 4.99,
+        "Total Points": 1187,
+        "Total GPs": 234
+      },
+      {
+        "Nr": 83,
+        "Driver": "Robert Kubica",
+        "Average Points": 4.95,
+        "Total Points": 490,
+        "Total GPs": 99
+      },
+      {
+        "Nr": 84,
+        "Driver": "Stefan Johansson",
+        "Average Points": 4.86,
+        "Total Points": 384,
+        "Total GPs": 79
+      },
+      {
+        "Nr": 85,
+        "Driver": "John Watson",
+        "Average Points": 4.85,
+        "Total Points": 736.5,
+        "Total GPs": 152
+      },
+      {
+        "Nr": 86,
+        "Driver": "Jean Behra",
+        "Average Points": 4.73,
+        "Total Points": 250.5,
+        "Total GPs": 53
+      },
+      {
+        "Nr": 87,
+        "Driver": "Rene Arnoux",
+        "Average Points": 4.71,
+        "Total Points": 702.5,
+        "Total GPs": 149
+      },
+      {
+        "Nr": 88,
+        "Driver": "Carlos Sainz",
+        "Average Points": 4.64,
+        "Total Points": 777.5,
+        "Total GPs": 162
+      },
+      {
+        "Nr": 89,
+        "Driver": "Cliff Allison",
+        "Average Points": 4.38,
+        "Total Points": 70,
+        "Total GPs": 16
+      },
+      {
+        "Nr": 90,
+        "Driver": "Jean Pierre Beltoise",
+        "Average Points": 4.37,
+        "Total Points": 367,
+        "Total GPs": 84
+      },
+      {
+        "Nr": 91,
+        "Driver": "Riccardo Patrese",
+        "Average Points": 4.36,
+        "Total Points": 1116,
+        "Total GPs": 256
+      },
+      {
+        "Nr": 92,
+        "Driver": "Roberto Mieres",
+        "Average Points": 4.35,
+        "Total Points": 74,
+        "Total GPs": 17
+      },
+      {
+        "Nr": 93,
+        "Driver": "Carlos Menditeguy",
+        "Average Points": 4.3,
+        "Total Points": 43,
+        "Total GPs": 10
+      },
+      {
+        "Nr": 94,
+        "Driver": "Mike Spence",
+        "Average Points": 4.25,
+        "Total Points": 153,
+        "Total GPs": 36
+      },
+      {
+        "Nr": 95,
+        "Driver": "Patrick Tambay",
+        "Average Points": 4.24,
+        "Total Points": 483,
+        "Total GPs": 114
+      },
+      {
+        "Nr": 96,
+        "Driver": "Maurice Trintignant",
+        "Average Points": 4.19,
+        "Total Points": 348,
+        "Total GPs": 83
+      },
+      {
+        "Nr": 97,
+        "Driver": "Chris Amon",
+        "Average Points": 4.11,
+        "Total Points": 395,
+        "Total GPs": 96
+      },
+      {
+        "Nr": 97,
+        "Driver": "Giancarlo Fisichella",
+        "Average Points": 4.11,
+        "Total Points": 942,
+        "Total GPs": 229
+      },
+      {
+        "Nr": 99,
+        "Driver": "Toulo de Graffenried",
+        "Average Points": 4.09,
+        "Total Points": 90,
+        "Total GPs": 22
+      },
+      {
+        "Nr": 100,
+        "Driver": "Brian Redman",
+        "Average Points": 4.08,
+        "Total Points": 49,
+        "Total GPs": 12
+      },
+      {
+        "Nr": 101,
+        "Driver": "Gunnar Nilsson",
+        "Average Points": 4.03,
+        "Total Points": 125,
+        "Total GPs": 31
+      },
+      {
+        "Nr": 102,
+        "Driver": "Innes Ireland",
+        "Average Points": 4,
+        "Total Points": 200,
+        "Total GPs": 50
+      },
+      {
+        "Nr": 103,
+        "Driver": "Thierry Boutsen",
+        "Average Points": 3.99,
+        "Total Points": 651,
+        "Total GPs": 163
+      },
+      {
+        "Nr": 104,
+        "Driver": "Michele Alboreto",
+        "Average Points": 3.95,
+        "Total Points": 767,
+        "Total GPs": 194
+      },
+      {
+        "Nr": 105,
+        "Driver": "Nick Heidfeld",
+        "Average Points": 3.93,
+        "Total Points": 720,
+        "Total GPs": 183
+      },
+      {
+        "Nr": 106,
+        "Driver": "Vic Elford",
+        "Average Points": 3.92,
+        "Total Points": 51,
+        "Total GPs": 13
+      },
+      {
+        "Nr": 106,
+        "Driver": "Rodger Ward",
+        "Average Points": 3.92,
+        "Total Points": 47,
+        "Total GPs": 12
+      },
+      {
+        "Nr": 108,
+        "Driver": "Paul Frere",
+        "Average Points": 3.91,
+        "Total Points": 43,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 109,
+        "Driver": "Richard Attwood",
+        "Average Points": 3.81,
+        "Total Points": 61,
+        "Total GPs": 16
+      },
+      {
+        "Nr": 110,
+        "Driver": "Paco Godia",
+        "Average Points": 3.77,
+        "Total Points": 49,
+        "Total GPs": 13
+      },
+      {
+        "Nr": 111,
+        "Driver": "Jochen Mass",
+        "Average Points": 3.72,
+        "Total Points": 390.5,
+        "Total GPs": 105
+      },
+      {
+        "Nr": 112,
+        "Driver": "Louis Rosier",
+        "Average Points": 3.68,
+        "Total Points": 140,
+        "Total GPs": 38
+      },
+      {
+        "Nr": 113,
+        "Driver": "Carlos Pace",
+        "Average Points": 3.64,
+        "Total Points": 262,
+        "Total GPs": 72
+      },
+      {
+        "Nr": 113,
+        "Driver": "Johnny Servoz-Gavin",
+        "Average Points": 3.64,
+        "Total Points": 40,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 115,
+        "Driver": "Tony Bettenhausen",
+        "Average Points": 3.61,
+        "Total Points": 39.7,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 116,
+        "Driver": "Harry Schell",
+        "Average Points": 3.59,
+        "Total Points": 208.5,
+        "Total GPs": 58
+      },
+      {
+        "Nr": 117,
+        "Driver": "Mark Donohue",
+        "Average Points": 3.5,
+        "Total Points": 49,
+        "Total GPs": 14
+      },
+      {
+        "Nr": 118,
+        "Driver": "Alessandro Nannini",
+        "Average Points": 3.49,
+        "Total Points": 269,
+        "Total GPs": 77
+      },
+      {
+        "Nr": 119,
+        "Driver": "Jo Siffert",
+        "Average Points": 3.48,
+        "Total Points": 334,
+        "Total GPs": 96
+      },
+      {
+        "Nr": 120,
+        "Driver": "Alexander Albon",
+        "Average Points": 3.47,
+        "Total Points": 201,
+        "Total GPs": 58
+      },
+      {
+        "Nr": 121,
+        "Driver": "Chris Irwin",
+        "Average Points": 3.4,
+        "Total Points": 34,
+        "Total GPs": 10
+      },
+      {
+        "Nr": 122,
+        "Driver": "Martin Brundle",
+        "Average Points": 3.39,
+        "Total Points": 536,
+        "Total GPs": 158
+      },
+      {
+        "Nr": 123,
+        "Driver": "Jim Hall",
+        "Average Points": 3.36,
+        "Total Points": 37,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 124,
+        "Driver": "George Russell",
+        "Average Points": 3.35,
+        "Total Points": 284,
+        "Total GPs": 81
+      },
+      {
+        "Nr": 125,
+        "Driver": "Johnny Herbert",
+        "Average Points": 3.29,
+        "Total Points": 530,
+        "Total GPs": 161
+      },
+      {
+        "Nr": 125,
+        "Driver": "Alexander Wurz",
+        "Average Points": 3.29,
+        "Total Points": 227,
+        "Total GPs": 69
+      },
+      {
+        "Nr": 127,
+        "Driver": "Mike Hailwood",
+        "Average Points": 3.26,
+        "Total Points": 163,
+        "Total GPs": 50
+      },
+      {
+        "Nr": 128,
+        "Driver": "Esteban Ocon",
+        "Average Points": 3.23,
+        "Total Points": 358,
+        "Total GPs": 110
+      },
+      {
+        "Nr": 129,
+        "Driver": "Jarno Trulli",
+        "Average Points": 3.19,
+        "Total Points": 805,
+        "Total GPs": 252
+      },
+      {
+        "Nr": 130,
+        "Driver": "Michael Andretti",
+        "Average Points": 3.15,
+        "Total Points": 41,
+        "Total GPs": 13
+      },
+      {
+        "Nr": 130,
+        "Driver": "Piers Courage",
+        "Average Points": 3.15,
+        "Total Points": 85,
+        "Total GPs": 27
+      },
+      {
+        "Nr": 132,
+        "Driver": "Pierre Gasly",
+        "Average Points": 3.1,
+        "Total Points": 333,
+        "Total GPs": 107
+      },
+      {
+        "Nr": 132,
+        "Driver": "Mark Blundell",
+        "Average Points": 3.1,
+        "Total Points": 189,
+        "Total GPs": 61
+      },
+      {
+        "Nr": 134,
+        "Driver": "Tom Pryce",
+        "Average Points": 3.06,
+        "Total Points": 128.5,
+        "Total GPs": 42
+      },
+      {
+        "Nr": 135,
+        "Driver": "Prince Bira",
+        "Average Points": 3,
+        "Total Points": 57,
+        "Total GPs": 19
+      },
+      {
+        "Nr": 135,
+        "Driver": "Giancarlo Baghetti",
+        "Average Points": 3,
+        "Total Points": 63,
+        "Total GPs": 21
+      },
+      {
+        "Nr": 137,
+        "Driver": "Jo Bonnier",
+        "Average Points": 2.99,
+        "Total Points": 311,
+        "Total GPs": 104
+      },
+      {
+        "Nr": 138,
+        "Driver": "Onofre Marimon",
+        "Average Points": 2.92,
+        "Total Points": 32.1,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 138,
+        "Driver": "Masten Gregory",
+        "Average Points": 2.92,
+        "Total Points": 111,
+        "Total GPs": 38
+      },
+      {
+        "Nr": 140,
+        "Driver": "Bob Anderson",
+        "Average Points": 2.88,
+        "Total Points": 69,
+        "Total GPs": 24
+      },
+      {
+        "Nr": 141,
+        "Driver": "Ron Flockhart",
+        "Average Points": 2.85,
+        "Total Points": 37,
+        "Total GPs": 13
+      },
+      {
+        "Nr": 141,
+        "Driver": "Yves Giraud Cabantous",
+        "Average Points": 2.85,
+        "Total Points": 37,
+        "Total GPs": 13
+      },
+      {
+        "Nr": 143,
+        "Driver": "Roy Salvadori",
+        "Average Points": 2.83,
+        "Total Points": 130,
+        "Total GPs": 46
+      },
+      {
+        "Nr": 144,
+        "Driver": "Nico Hulkenberg",
+        "Average Points": 2.82,
+        "Total Points": 513,
+        "Total GPs": 182
+      },
+      {
+        "Nr": 144,
+        "Driver": "Reine Wisell",
+        "Average Points": 2.82,
+        "Total Points": 62,
+        "Total GPs": 22
+      },
+      {
+        "Nr": 146,
+        "Driver": "Robert Manzon",
+        "Average Points": 2.79,
+        "Total Points": 78,
+        "Total GPs": 28
+      },
+      {
+        "Nr": 147,
+        "Driver": "Willy Mairesse",
+        "Average Points": 2.75,
+        "Total Points": 33,
+        "Total GPs": 12
+      },
+      {
+        "Nr": 148,
+        "Driver": "Derek Warwick",
+        "Average Points": 2.74,
+        "Total Points": 403,
+        "Total GPs": 147
+      },
+      {
+        "Nr": 149,
+        "Driver": "Eddie Cheever",
+        "Average Points": 2.73,
+        "Total Points": 361,
+        "Total GPs": 132
+      },
+      {
+        "Nr": 149,
+        "Driver": "Ken Wharton",
+        "Average Points": 2.73,
+        "Total Points": 41,
+        "Total GPs": 15
+      },
+      {
+        "Nr": 151,
+        "Driver": "Olivier Panis",
+        "Average Points": 2.72,
+        "Total Points": 427,
+        "Total GPs": 157
+      },
+      {
+        "Nr": 152,
+        "Driver": "Louis Chiron",
+        "Average Points": 2.67,
+        "Total Points": 40,
+        "Total GPs": 15
+      },
+      {
+        "Nr": 153,
+        "Driver": "Hans Herrmann",
+        "Average Points": 2.65,
+        "Total Points": 45,
+        "Total GPs": 17
+      },
+      {
+        "Nr": 154,
+        "Driver": "Peter Whitehead",
+        "Average Points": 2.6,
+        "Total Points": 26,
+        "Total GPs": 10
+      },
+      {
+        "Nr": 155,
+        "Driver": "Heikki Kovalainen",
+        "Average Points": 2.55,
+        "Total Points": 283,
+        "Total GPs": 111
+      },
+      {
+        "Nr": 156,
+        "Driver": "Christian Fittipaldi",
+        "Average Points": 2.5,
+        "Total Points": 100,
+        "Total GPs": 40
+      },
+      {
+        "Nr": 156,
+        "Driver": "Mika Salo",
+        "Average Points": 2.5,
+        "Total Points": 272,
+        "Total GPs": 109
+      },
+      {
+        "Nr": 158,
+        "Driver": "Derek Daly",
+        "Average Points": 2.41,
+        "Total Points": 118,
+        "Total GPs": 49
+      },
+      {
+        "Nr": 159,
+        "Driver": "Howden Ganley",
+        "Average Points": 2.4,
+        "Total Points": 84,
+        "Total GPs": 35
+      },
+      {
+        "Nr": 160,
+        "Driver": "Philippe Etancelin",
+        "Average Points": 2.33,
+        "Total Points": 28,
+        "Total GPs": 12
+      },
+      {
+        "Nr": 161,
+        "Driver": "Tony Brise",
+        "Average Points": 2.3,
+        "Total Points": 23,
+        "Total GPs": 10
+      },
+      {
+        "Nr": 162,
+        "Driver": "Jean-Christophe Boullion",
+        "Average Points": 2.27,
+        "Total Points": 25,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 162,
+        "Driver": "Marc Surer",
+        "Average Points": 2.27,
+        "Total Points": 186,
+        "Total GPs": 82
+      },
+      {
+        "Nr": 162,
+        "Driver": "Johnny Dumfries",
+        "Average Points": 2.27,
+        "Total Points": 34,
+        "Total GPs": 15
+      },
+      {
+        "Nr": 165,
+        "Driver": "Hans Joachim Stuck",
+        "Average Points": 2.23,
+        "Total Points": 165,
+        "Total GPs": 74
+      },
+      {
+        "Nr": 166,
+        "Driver": "Romain Grosjean",
+        "Average Points": 2.19,
+        "Total Points": 392,
+        "Total GPs": 179
+      },
+      {
+        "Nr": 167,
+        "Driver": "Jack Fairman",
+        "Average Points": 2.17,
+        "Total Points": 26,
+        "Total GPs": 12
+      },
+      {
+        "Nr": 168,
+        "Driver": "Trevor Taylor",
+        "Average Points": 2.11,
+        "Total Points": 57,
+        "Total GPs": 27
+      },
+      {
+        "Nr": 168,
+        "Driver": "Carel Godin de Beaufort",
+        "Average Points": 2.11,
+        "Total Points": 57,
+        "Total GPs": 27
+      },
+      {
+        "Nr": 170,
+        "Driver": "Satoru Nakajima",
+        "Average Points": 2.09,
+        "Total Points": 155,
+        "Total GPs": 74
+      },
+      {
+        "Nr": 171,
+        "Driver": "George Follmer",
+        "Average Points": 2.08,
+        "Total Points": 25,
+        "Total GPs": 12
+      },
+      {
+        "Nr": 172,
+        "Driver": "Paul di Resta",
+        "Average Points": 2.05,
+        "Total Points": 121,
+        "Total GPs": 59
+      },
+      {
+        "Nr": 173,
+        "Driver": "Silvio Moser",
+        "Average Points": 2,
+        "Total Points": 24,
+        "Total GPs": 12
+      },
+      {
+        "Nr": 173,
+        "Driver": "Teo Fabi",
+        "Average Points": 2,
+        "Total Points": 124,
+        "Total GPs": 62
+      },
+      {
+        "Nr": 175,
+        "Driver": "Roberto Moreno",
+        "Average Points": 1.95,
+        "Total Points": 82,
+        "Total GPs": 42
+      },
+      {
+        "Nr": 175,
+        "Driver": "Hector Rebaque",
+        "Average Points": 1.95,
+        "Total Points": 80,
+        "Total GPs": 41
+      },
+      {
+        "Nr": 177,
+        "Driver": "Lucien Bianchi",
+        "Average Points": 1.94,
+        "Total Points": 33,
+        "Total GPs": 17
+      },
+      {
+        "Nr": 178,
+        "Driver": "Karl Wendlinger",
+        "Average Points": 1.9,
+        "Total Points": 78,
+        "Total GPs": 41
+      },
+      {
+        "Nr": 179,
+        "Driver": "Philippe Streiff",
+        "Average Points": 1.85,
+        "Total Points": 100,
+        "Total GPs": 54
+      },
+      {
+        "Nr": 179,
+        "Driver": "Daniil Kvyat",
+        "Average Points": 1.85,
+        "Total Points": 203,
+        "Total GPs": 110
+      },
+      {
+        "Nr": 181,
+        "Driver": "Vittorio Brambilla",
+        "Average Points": 1.84,
+        "Total Points": 136.5,
+        "Total GPs": 74
+      },
+      {
+        "Nr": 181,
+        "Driver": "Henri Pescarolo",
+        "Average Points": 1.84,
+        "Total Points": 103,
+        "Total GPs": 56
+      },
+      {
+        "Nr": 183,
+        "Driver": "Rolf Stommelen",
+        "Average Points": 1.81,
+        "Total Points": 96,
+        "Total GPs": 53
+      },
+      {
+        "Nr": 184,
+        "Driver": "Nelsinho Piquet",
+        "Average Points": 1.79,
+        "Total Points": 50,
+        "Total GPs": 28
+      },
+      {
+        "Nr": 185,
+        "Driver": "Chico Serra",
+        "Average Points": 1.78,
+        "Total Points": 32,
+        "Total GPs": 18
+      },
+      {
+        "Nr": 186,
+        "Driver": "Kamui Kobayashi",
+        "Average Points": 1.77,
+        "Total Points": 133,
+        "Total GPs": 75
+      },
+      {
+        "Nr": 187,
+        "Driver": "Eric Bernard",
+        "Average Points": 1.76,
+        "Total Points": 79,
+        "Total GPs": 45
+      },
+      {
+        "Nr": 188,
+        "Driver": "John Miles",
+        "Average Points": 1.75,
+        "Total Points": 21,
+        "Total GPs": 12
+      },
+      {
+        "Nr": 188,
+        "Driver": "Jean Pierre Jarier",
+        "Average Points": 1.75,
+        "Total Points": 236,
+        "Total GPs": 135
+      },
+      {
+        "Nr": 190,
+        "Driver": "Jackie Oliver",
+        "Average Points": 1.73,
+        "Total Points": 85,
+        "Total GPs": 49
+      },
+      {
+        "Nr": 190,
+        "Driver": "Ivan Capelli",
+        "Average Points": 1.73,
+        "Total Points": 161,
+        "Total GPs": 93
+      },
+      {
+        "Nr": 192,
+        "Driver": "Ricardo Zunino",
+        "Average Points": 1.7,
+        "Total Points": 17,
+        "Total GPs": 10
+      },
+      {
+        "Nr": 192,
+        "Driver": "Peter Gethin",
+        "Average Points": 1.7,
+        "Total Points": 51,
+        "Total GPs": 30
+      },
+      {
+        "Nr": 194,
+        "Driver": "Mauro Baldi",
+        "Average Points": 1.69,
+        "Total Points": 61,
+        "Total GPs": 36
+      },
+      {
+        "Nr": 195,
+        "Driver": "Andrea de Cesaris",
+        "Average Points": 1.68,
+        "Total Points": 349,
+        "Total GPs": 208
+      },
+      {
+        "Nr": 196,
+        "Driver": "Jyrki Jarvilehto",
+        "Average Points": 1.66,
+        "Total Points": 103,
+        "Total GPs": 62
+      },
+      {
+        "Nr": 197,
+        "Driver": "Jonathan Palmer",
+        "Average Points": 1.65,
+        "Total Points": 137,
+        "Total GPs": 83
+      },
+      {
+        "Nr": 198,
+        "Driver": "Andre Simon",
+        "Average Points": 1.64,
+        "Total Points": 18,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 199,
+        "Driver": "Mauricio Gugelmin",
+        "Average Points": 1.62,
+        "Total Points": 120,
+        "Total GPs": 74
+      },
+      {
+        "Nr": 200,
+        "Driver": "Cristiano da Matta",
+        "Average Points": 1.61,
+        "Total Points": 45,
+        "Total GPs": 28
+      },
+      {
+        "Nr": 201,
+        "Driver": "Slim Borgudd",
+        "Average Points": 1.6,
+        "Total Points": 16,
+        "Total GPs": 10
+      },
+      {
+        "Nr": 202,
+        "Driver": "Erik Comas",
+        "Average Points": 1.59,
+        "Total Points": 94,
+        "Total GPs": 59
+      },
+      {
+        "Nr": 202,
+        "Driver": "Pierluigi Martini",
+        "Average Points": 1.59,
+        "Total Points": 188,
+        "Total GPs": 118
+      },
+      {
+        "Nr": 204,
+        "Driver": "Lance Stroll",
+        "Average Points": 1.57,
+        "Total Points": 190,
+        "Total GPs": 121
+      },
+      {
+        "Nr": 205,
+        "Driver": "Timo Glock",
+        "Average Points": 1.54,
+        "Total Points": 140.5,
+        "Total GPs": 91
+      },
+      {
+        "Nr": 206,
+        "Driver": "Takuma Sato",
+        "Average Points": 1.52,
+        "Total Points": 137,
+        "Total GPs": 90
+      },
+      {
+        "Nr": 206,
+        "Driver": "Andrea de Adamich",
+        "Average Points": 1.52,
+        "Total Points": 44,
+        "Total GPs": 29
+      },
+      {
+        "Nr": 208,
+        "Driver": "Bruno Giacomelli",
+        "Average Points": 1.51,
+        "Total Points": 104,
+        "Total GPs": 69
+      },
+      {
+        "Nr": 209,
+        "Driver": "Giorgio Scarlatti",
+        "Average Points": 1.5,
+        "Total Points": 18,
+        "Total GPs": 12
+      },
+      {
+        "Nr": 209,
+        "Driver": "Stefan Bellof",
+        "Average Points": 1.5,
+        "Total Points": 30,
+        "Total GPs": 20
+      },
+      {
+        "Nr": 211,
+        "Driver": "Antonio Pizzonia",
+        "Average Points": 1.45,
+        "Total Points": 29,
+        "Total GPs": 20
+      },
+      {
+        "Nr": 212,
+        "Driver": "Christian Danner",
+        "Average Points": 1.44,
+        "Total Points": 52,
+        "Total GPs": 36
+      },
+      {
+        "Nr": 213,
+        "Driver": "Tim Schenken",
+        "Average Points": 1.41,
+        "Total Points": 48,
+        "Total GPs": 34
+      },
+      {
+        "Nr": 213,
+        "Driver": "Alex Caffi",
+        "Average Points": 1.41,
+        "Total Points": 79,
+        "Total GPs": 56
+      },
+      {
+        "Nr": 215,
+        "Driver": "Jean Pierre Jabouille",
+        "Average Points": 1.39,
+        "Total Points": 68,
+        "Total GPs": 49
+      },
+      {
+        "Nr": 216,
+        "Driver": "Shinji Nakano",
+        "Average Points": 1.36,
+        "Total Points": 45,
+        "Total GPs": 33
+      },
+      {
+        "Nr": 216,
+        "Driver": "Ricardo Zonta",
+        "Average Points": 1.36,
+        "Total Points": 49,
+        "Total GPs": 36
+      },
+      {
+        "Nr": 216,
+        "Driver": "Stefano Modena",
+        "Average Points": 1.36,
+        "Total Points": 96.5,
+        "Total GPs": 71
+      },
+      {
+        "Nr": 219,
+        "Driver": "Aguri Suzuki",
+        "Average Points": 1.35,
+        "Total Points": 88,
+        "Total GPs": 65
+      },
+      {
+        "Nr": 220,
+        "Driver": "Danny Sullivan",
+        "Average Points": 1.33,
+        "Total Points": 20,
+        "Total GPs": 15
+      },
+      {
+        "Nr": 221,
+        "Driver": "Kevin Magnussen",
+        "Average Points": 1.28,
+        "Total Points": 183,
+        "Total GPs": 140
+      },
+      {
+        "Nr": 222,
+        "Driver": "Ronnie Bucknum",
+        "Average Points": 1.27,
+        "Total Points": 14,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 222,
+        "Driver": "Pedro Diniz",
+        "Average Points": 1.27,
+        "Total Points": 124,
+        "Total GPs": 98
+      },
+      {
+        "Nr": 224,
+        "Driver": "Brian Henton",
+        "Average Points": 1.26,
+        "Total Points": 24,
+        "Total GPs": 19
+      },
+      {
+        "Nr": 225,
+        "Driver": "Yannick Dalmas",
+        "Average Points": 1.25,
+        "Total Points": 30,
+        "Total GPs": 24
+      },
+      {
+        "Nr": 226,
+        "Driver": "Pedro de la Rosa",
+        "Average Points": 1.23,
+        "Total Points": 128,
+        "Total GPs": 104
+      },
+      {
+        "Nr": 226,
+        "Driver": "Arturo Merzario",
+        "Average Points": 1.23,
+        "Total Points": 70,
+        "Total GPs": 57
+      },
+      {
+        "Nr": 228,
+        "Driver": "Horace Gould",
+        "Average Points": 1.21,
+        "Total Points": 17,
+        "Total GPs": 14
+      },
+      {
+        "Nr": 228,
+        "Driver": "Gianni Morbidelli",
+        "Average Points": 1.21,
+        "Total Points": 81,
+        "Total GPs": 67
+      },
+      {
+        "Nr": 230,
+        "Driver": "Nicola Larini",
+        "Average Points": 1.16,
+        "Total Points": 57,
+        "Total GPs": 49
+      },
+      {
+        "Nr": 230,
+        "Driver": "Harald Ertl",
+        "Average Points": 1.16,
+        "Total Points": 22,
+        "Total GPs": 19
+      },
+      {
+        "Nr": 232,
+        "Driver": "Christian Klien",
+        "Average Points": 1.14,
+        "Total Points": 56,
+        "Total GPs": 49
+      },
+      {
+        "Nr": 232,
+        "Driver": "Marc Gene",
+        "Average Points": 1.14,
+        "Total Points": 41,
+        "Total GPs": 36
+      },
+      {
+        "Nr": 234,
+        "Driver": "Vitaly Petrov",
+        "Average Points": 1.12,
+        "Total Points": 64,
+        "Total GPs": 57
+      },
+      {
+        "Nr": 235,
+        "Driver": "Jos Verstappen",
+        "Average Points": 1.11,
+        "Total Points": 119,
+        "Total GPs": 107
+      },
+      {
+        "Nr": 236,
+        "Driver": "Wilson Fittipaldi",
+        "Average Points": 1.09,
+        "Total Points": 38,
+        "Total GPs": 35
+      },
+      {
+        "Nr": 237,
+        "Driver": "Adrian Sutil",
+        "Average Points": 1.08,
+        "Total Points": 138,
+        "Total GPs": 128
+      },
+      {
+        "Nr": 237,
+        "Driver": "Martin Donnelly",
+        "Average Points": 1.08,
+        "Total Points": 14,
+        "Total GPs": 13
+      },
+      {
+        "Nr": 239,
+        "Driver": "Yuki Tsunoda",
+        "Average Points": 1.05,
+        "Total Points": 44,
+        "Total GPs": 42
+      },
+      {
+        "Nr": 240,
+        "Driver": "Emanuele Pirro",
+        "Average Points": 1.03,
+        "Total Points": 38,
+        "Total GPs": 37
+      },
+      {
+        "Nr": 241,
+        "Driver": "Patrick Neve",
+        "Average Points": 1,
+        "Total Points": 10,
+        "Total GPs": 10
+      },
+      {
+        "Nr": 241,
+        "Driver": "Guy Ligier",
+        "Average Points": 1,
+        "Total Points": 12,
+        "Total GPs": 12
+      },
+      {
+        "Nr": 243,
+        "Driver": "Bertrand Gachot",
+        "Average Points": 0.96,
+        "Total Points": 46,
+        "Total GPs": 48
+      },
+      {
+        "Nr": 243,
+        "Driver": "Johnny Claes",
+        "Average Points": 0.96,
+        "Total Points": 22,
+        "Total GPs": 23
+      },
+      {
+        "Nr": 245,
+        "Driver": "Kazuki Nakajima",
+        "Average Points": 0.94,
+        "Total Points": 34,
+        "Total GPs": 36
+      },
+      {
+        "Nr": 246,
+        "Driver": "Alessandro Zanardi",
+        "Average Points": 0.93,
+        "Total Points": 38,
+        "Total GPs": 41
+      },
+      {
+        "Nr": 247,
+        "Driver": "Eliseo Salazar",
+        "Average Points": 0.92,
+        "Total Points": 22,
+        "Total GPs": 24
+      },
+      {
+        "Nr": 248,
+        "Driver": "Guy Edwards",
+        "Average Points": 0.91,
+        "Total Points": 10,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 249,
+        "Driver": "Jean-Eric Vergne",
+        "Average Points": 0.88,
+        "Total Points": 51,
+        "Total GPs": 58
+      },
+      {
+        "Nr": 249,
+        "Driver": "Allan McNish",
+        "Average Points": 0.88,
+        "Total Points": 14,
+        "Total GPs": 16
+      },
+      {
+        "Nr": 251,
+        "Driver": "Philippe Alliot",
+        "Average Points": 0.85,
+        "Total Points": 93,
+        "Total GPs": 109
+      },
+      {
+        "Nr": 252,
+        "Driver": "Francois Hesnault",
+        "Average Points": 0.84,
+        "Total Points": 16,
+        "Total GPs": 19
+      },
+      {
+        "Nr": 253,
+        "Driver": "Lella Lombardi",
+        "Average Points": 0.83,
+        "Total Points": 10,
+        "Total GPs": 12
+      },
+      {
+        "Nr": 253,
+        "Driver": "Sebastien Bourdais",
+        "Average Points": 0.83,
+        "Total Points": 22.5,
+        "Total GPs": 27
+      },
+      {
+        "Nr": 255,
+        "Driver": "Alex Ribeiro",
+        "Average Points": 0.8,
+        "Total Points": 8,
+        "Total GPs": 10
+      },
+      {
+        "Nr": 255,
+        "Driver": "Pastor Maldonado",
+        "Average Points": 0.8,
+        "Total Points": 76,
+        "Total GPs": 95
+      },
+      {
+        "Nr": 257,
+        "Driver": "Jan Magnussen",
+        "Average Points": 0.79,
+        "Total Points": 19,
+        "Total GPs": 24
+      },
+      {
+        "Nr": 258,
+        "Driver": "Sebastien Buemi",
+        "Average Points": 0.78,
+        "Total Points": 43,
+        "Total GPs": 55
+      },
+      {
+        "Nr": 259,
+        "Driver": "Lance Macklin",
+        "Average Points": 0.77,
+        "Total Points": 10,
+        "Total GPs": 13
+      },
+      {
+        "Nr": 260,
+        "Driver": "Felipe Nasr",
+        "Average Points": 0.74,
+        "Total Points": 29,
+        "Total GPs": 39
+      },
+      {
+        "Nr": 261,
+        "Driver": "Patrick Friesacher",
+        "Average Points": 0.73,
+        "Total Points": 8,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 262,
+        "Driver": "Huub Rothengatter",
+        "Average Points": 0.72,
+        "Total Points": 18,
+        "Total GPs": 25
+      },
+      {
+        "Nr": 262,
+        "Driver": "Bruno Senna",
+        "Average Points": 0.72,
+        "Total Points": 33,
+        "Total GPs": 46
+      },
+      {
+        "Nr": 264,
+        "Driver": "Luciano Burti",
+        "Average Points": 0.71,
+        "Total Points": 10,
+        "Total GPs": 14
+      },
+      {
+        "Nr": 265,
+        "Driver": "Raul Boesel",
+        "Average Points": 0.7,
+        "Total Points": 16,
+        "Total GPs": 23
+      },
+      {
+        "Nr": 266,
+        "Driver": "Pedro Lamy",
+        "Average Points": 0.69,
+        "Total Points": 22,
+        "Total GPs": 32
+      },
+      {
+        "Nr": 267,
+        "Driver": "Gabriele Tarquini",
+        "Average Points": 0.68,
+        "Total Points": 26,
+        "Total GPs": 38
+      },
+      {
+        "Nr": 267,
+        "Driver": "Ukyo Katayama",
+        "Average Points": 0.68,
+        "Total Points": 65,
+        "Total GPs": 95
+      },
+      {
+        "Nr": 269,
+        "Driver": "Jaime Alguersuari",
+        "Average Points": 0.67,
+        "Total Points": 31,
+        "Total GPs": 46
+      },
+      {
+        "Nr": 270,
+        "Driver": "Luis Perez-Sala",
+        "Average Points": 0.65,
+        "Total Points": 17,
+        "Total GPs": 26
+      },
+      {
+        "Nr": 271,
+        "Driver": "Corrado Fabi",
+        "Average Points": 0.64,
+        "Total Points": 9,
+        "Total GPs": 14
+      },
+      {
+        "Nr": 272,
+        "Driver": "Stoffel Vandoorne",
+        "Average Points": 0.63,
+        "Total Points": 26,
+        "Total GPs": 41
+      },
+      {
+        "Nr": 273,
+        "Driver": "Tiago Monteiro",
+        "Average Points": 0.62,
+        "Total Points": 23,
+        "Total GPs": 37
+      },
+      {
+        "Nr": 273,
+        "Driver": "Brett Lunger",
+        "Average Points": 0.62,
+        "Total Points": 21,
+        "Total GPs": 34
+      },
+      {
+        "Nr": 275,
+        "Driver": "Johnny Cecotto",
+        "Average Points": 0.61,
+        "Total Points": 11,
+        "Total GPs": 18
+      },
+      {
+        "Nr": 275,
+        "Driver": "Olivier Grouillard",
+        "Average Points": 0.61,
+        "Total Points": 25,
+        "Total GPs": 41
+      },
+      {
+        "Nr": 275,
+        "Driver": "Mike Beuttler",
+        "Average Points": 0.61,
+        "Total Points": 17,
+        "Total GPs": 28
+      },
+      {
+        "Nr": 278,
+        "Driver": "Rupert Keegan",
+        "Average Points": 0.6,
+        "Total Points": 15,
+        "Total GPs": 25
+      },
+      {
+        "Nr": 279,
+        "Driver": "Ian Burgess",
+        "Average Points": 0.56,
+        "Total Points": 9,
+        "Total GPs": 16
+      },
+      {
+        "Nr": 280,
+        "Driver": "Manfred Winkelhock",
+        "Average Points": 0.55,
+        "Total Points": 26,
+        "Total GPs": 47
+      },
+      {
+        "Nr": 280,
+        "Driver": "Vitantonio Liuzzi",
+        "Average Points": 0.55,
+        "Total Points": 44,
+        "Total GPs": 80
+      },
+      {
+        "Nr": 282,
+        "Driver": "Luca Badoer",
+        "Average Points": 0.52,
+        "Total Points": 26,
+        "Total GPs": 50
+      },
+      {
+        "Nr": 283,
+        "Driver": "Piercarlo Ghinzani",
+        "Average Points": 0.5,
+        "Total Points": 37,
+        "Total GPs": 74
+      },
+      {
+        "Nr": 284,
+        "Driver": "Alex Yoong",
+        "Average Points": 0.47,
+        "Total Points": 7,
+        "Total GPs": 15
+      },
+      {
+        "Nr": 285,
+        "Driver": "Hans Binder",
+        "Average Points": 0.46,
+        "Total Points": 6,
+        "Total GPs": 13
+      },
+      {
+        "Nr": 285,
+        "Driver": "Ricardo Rosset",
+        "Average Points": 0.46,
+        "Total Points": 12,
+        "Total GPs": 26
+      },
+      {
+        "Nr": 287,
+        "Driver": "Pascal Fabre",
+        "Average Points": 0.45,
+        "Total Points": 5,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 288,
+        "Driver": "Toranosuke Takagi",
+        "Average Points": 0.44,
+        "Total Points": 14,
+        "Total GPs": 32
+      },
+      {
+        "Nr": 289,
+        "Driver": "Rikky von Opel",
+        "Average Points": 0.4,
+        "Total Points": 4,
+        "Total GPs": 10
+      },
+      {
+        "Nr": 290,
+        "Driver": "Larry Perkins",
+        "Average Points": 0.36,
+        "Total Points": 4,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 290,
+        "Driver": "Ralph Firman",
+        "Average Points": 0.36,
+        "Total Points": 5,
+        "Total GPs": 14
+      },
+      {
+        "Nr": 292,
+        "Driver": "Zsolt Baumgartner",
+        "Average Points": 0.35,
+        "Total Points": 7,
+        "Total GPs": 20
+      },
+      {
+        "Nr": 292,
+        "Driver": "Andrea Montermini",
+        "Average Points": 0.35,
+        "Total Points": 7,
+        "Total GPs": 20
+      },
+      {
+        "Nr": 294,
+        "Driver": "Antonio Giovinazzi",
+        "Average Points": 0.34,
+        "Total Points": 22,
+        "Total GPs": 62
+      },
+      {
+        "Nr": 295,
+        "Driver": "Taki Inoue",
+        "Average Points": 0.33,
+        "Total Points": 6,
+        "Total GPs": 18
+      },
+      {
+        "Nr": 296,
+        "Driver": "Bob Evans",
+        "Average Points": 0.3,
+        "Total Points": 3,
+        "Total GPs": 10
+      },
+      {
+        "Nr": 297,
+        "Driver": "Zhou Guanyu",
+        "Average Points": 0.29,
+        "Total Points": 6,
+        "Total GPs": 21
+      },
+      {
+        "Nr": 297,
+        "Driver": "Gaston Mazzacane",
+        "Average Points": 0.29,
+        "Total Points": 6,
+        "Total GPs": 21
+      },
+      {
+        "Nr": 297,
+        "Driver": "Mick Schumacher",
+        "Average Points": 0.29,
+        "Total Points": 12,
+        "Total GPs": 42
+      },
+      {
+        "Nr": 300,
+        "Driver": "Dave Walker",
+        "Average Points": 0.27,
+        "Total Points": 3,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 301,
+        "Driver": "Narain Karthikeyan",
+        "Average Points": 0.26,
+        "Total Points": 12,
+        "Total GPs": 46
+      },
+      {
+        "Nr": 301,
+        "Driver": "Jolyon Palmer",
+        "Average Points": 0.26,
+        "Total Points": 9,
+        "Total GPs": 35
+      },
+      {
+        "Nr": 303,
+        "Driver": "Justin Wilson",
+        "Average Points": 0.25,
+        "Total Points": 4,
+        "Total GPs": 16
+      },
+      {
+        "Nr": 303,
+        "Driver": "Estaban Tuero",
+        "Average Points": 0.25,
+        "Total Points": 4,
+        "Total GPs": 16
+      },
+      {
+        "Nr": 303,
+        "Driver": "Enrique Bernoldi",
+        "Average Points": 0.25,
+        "Total Points": 7,
+        "Total GPs": 28
+      },
+      {
+        "Nr": 306,
+        "Driver": "Christijan Albers",
+        "Average Points": 0.24,
+        "Total Points": 11,
+        "Total GPs": 46
+      },
+      {
+        "Nr": 307,
+        "Driver": "Scott Speed",
+        "Average Points": 0.21,
+        "Total Points": 6,
+        "Total GPs": 28
+      },
+      {
+        "Nr": 307,
+        "Driver": "Tarso Marques",
+        "Average Points": 0.21,
+        "Total Points": 5,
+        "Total GPs": 24
+      },
+      {
+        "Nr": 309,
+        "Driver": "Wolfgang Seidel",
+        "Average Points": 0.2,
+        "Total Points": 2,
+        "Total GPs": 10
+      },
+      {
+        "Nr": 310,
+        "Driver": "Roberto Guerrero",
+        "Average Points": 0.19,
+        "Total Points": 4,
+        "Total GPs": 21
+      },
+      {
+        "Nr": 310,
+        "Driver": "Marcus Ericsson",
+        "Average Points": 0.19,
+        "Total Points": 18,
+        "Total GPs": 97
+      },
+      {
+        "Nr": 312,
+        "Driver": "Jan Lammers",
+        "Average Points": 0.17,
+        "Total Points": 4,
+        "Total GPs": 23
+      },
+      {
+        "Nr": 313,
+        "Driver": "Brendon Hartley",
+        "Average Points": 0.16,
+        "Total Points": 4,
+        "Total GPs": 25
+      },
+      {
+        "Nr": 314,
+        "Driver": "Pascal Wehrlein",
+        "Average Points": 0.15,
+        "Total Points": 6,
+        "Total GPs": 39
+      },
+      {
+        "Nr": 314,
+        "Driver": "Nicholas Latifi",
+        "Average Points": 0.15,
+        "Total Points": 9,
+        "Total GPs": 60
+      },
+      {
+        "Nr": 316,
+        "Driver": "Nanni Galli",
+        "Average Points": 0.13,
+        "Total Points": 2,
+        "Total GPs": 16
+      },
+      {
+        "Nr": 317,
+        "Driver": "Esteban Gutierrez",
+        "Average Points": 0.1,
+        "Total Points": 6,
+        "Total GPs": 59
+      },
+      {
+        "Nr": 318,
+        "Driver": "George Eaton",
+        "Average Points": 0.09,
+        "Total Points": 1,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 319,
+        "Driver": "Jules Bianchi",
+        "Average Points": 0.06,
+        "Total Points": 2,
+        "Total GPs": 34
+      },
+      {
+        "Nr": 319,
+        "Driver": "Ian Scheckter",
+        "Average Points": 0.06,
+        "Total Points": 1,
+        "Total GPs": 18
+      },
+      {
+        "Nr": 321,
+        "Driver": "Sergey Sirotkin",
+        "Average Points": 0.05,
+        "Total Points": 1,
+        "Total GPs": 21
+      },
+      {
+        "Nr": 322,
+        "Driver": "David Brabham",
+        "Average Points": 0.04,
+        "Total Points": 1,
+        "Total GPs": 24
+      },
+      {
+        "Nr": 323,
+        "Driver": "Karun Chandhok",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 323,
+        "Driver": "Robert Doornbos",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 323,
+        "Driver": "Dave Charlton",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 11
+      },
+      {
+        "Nr": 323,
+        "Driver": "Rio Haryanto",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 12
+      },
+      {
+        "Nr": 323,
+        "Driver": "Roberto Merhi",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 13
+      },
+      {
+        "Nr": 323,
+        "Driver": "Francois Migault",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 13
+      },
+      {
+        "Nr": 323,
+        "Driver": "Giorgio Pantano",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 14
+      },
+      {
+        "Nr": 323,
+        "Driver": "Adrian Campos",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 17
+      },
+      {
+        "Nr": 323,
+        "Driver": "Will Stevens",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 18
+      },
+      {
+        "Nr": 323,
+        "Driver": "Lucas di Grassi",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 18
+      },
+      {
+        "Nr": 323,
+        "Driver": "Gianmaria Bruni",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 18
+      },
+      {
+        "Nr": 323,
+        "Driver": "Giedo van der Garde",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 19
+      },
+      {
+        "Nr": 323,
+        "Driver": "Jerome D'Ambrosio",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 20
+      },
+      {
+        "Nr": 323,
+        "Driver": "Sakon Yamamoto",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 21
+      },
+      {
+        "Nr": 323,
+        "Driver": "Nikita Mazepin",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 21
+      },
+      {
+        "Nr": 323,
+        "Driver": "Anthony Davidson",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 24
+      },
+      {
+        "Nr": 323,
+        "Driver": "Max Chilton",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 35
+      },
+      {
+        "Nr": 323,
+        "Driver": "Charles Pic",
+        "Average Points": 0,
+        "Total Points": 0,
+        "Total GPs": 39
+      }
+    ]
+  },
+  "params": [{"name": "grid", "select": "interval", "bind": "scales"}],
+  "mark": {"type": "point"},
+  "width": 300,
+  "height": 300,
+  "encoding": {
+    "x": {"field": "Total GPs", "type": "quantitative"},
+    "y": {"field": "Total Points", "type": "quantitative"},
+    "color": {
+      "field": "Average Points",
+      "type": "quantitative",
+      "scale": {"range": ["red", "green"]}
+    },
+    "tooltip": [
+      {"field": "Driver", "type": "nominal"},
+      {"field": "Average Points", "type": "quantitative"},
+      {"field": "Total Points", "type": "quantitative"},
+      {"field": "Total GPs", "type": "quantitative"}
+    ]
+  },
+  "config": {}
+}
