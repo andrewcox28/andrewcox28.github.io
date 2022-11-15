@@ -7,7 +7,7 @@
     <title>Portfolio</title>
 
 
-    <link rel="stylesheet" href="week1.css">
+    <link rel="stylesheet" href="portfolio.css">
 
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
@@ -52,6 +52,26 @@
 
     </div>
 
+    <div class="weeks">
+        <h1>Week 3</h1>
+        <h3>Chart 1</h3>
+        <p>Description</p>
+        <div class="chart" id="Chart5"></div>
+
+        <h3>Chart 2</h3>
+        <p>Description</p>
+        <div class="chart" id="Chart6"></div>
+    
+    </div>
+
+    <div class="weeks">
+        <h1>Week 4</h1>
+        <h3>Chart 1</h3>
+        <p>Description</p>
+        <div class="chart" id="Chart7"></div>
+    
+    </div>
+
 
 </body>
 
@@ -60,7 +80,11 @@
     var myChart1 = "charts/chartINF1.json";
     var myChart2 = "charts/labmkt7.json";
     var myChart3 = "charts/IMF Lending.json";
-    var myChart3 = "charts/IMF Lending of GDP.json";
+    var myChart4 = "charts/IMF Lending of GDP.json";
+    var myChart5 = "charts/Week3_c1.json";
+    var myChart6 = "charts/Week3_c2.json";
+    var myChart5 = "charts/Week3_c1.json";
+    var myChart7 = "charts/f1_driver_points.json";
 
 
     // Embed charts:
@@ -68,6 +92,10 @@
     vegaEmbed('#Chart2', myChart2);
     vegaEmbed('#Chart3', myChart3);
     vegaEmbed('#Chart4', myChart4);
+    vegaEmbed('#Chart5', myChart5);
+    vegaEmbed('#Chart6', myChart6);
+    vegaEmbed('#Chart7', myChart7);
+
 </script>
 
 </html>

@@ -1,100 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+/* Richard Davies, Data Science for Economists */
 
-h1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 550;
-    text-align: center;
-}
-
-h2{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: larger;
-
-}
+/* This is my second CSS file */
 
 
-p{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-
-    color:black;
-    background-color: white;
-}
+/* Import a font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 
-/* AREAS OF THE PAGE */
-
+/* Set the background color for my page: */
 body{
-    background-color: rgba(200,200,200);
+    background-color: rgb(150, 150, 150);
+ 
 }
 
-#link1{
-    display:block;
-    margin: auto;
+
+/* Choose the appearance of the tags, h1, h3 and p: */
+h1, h3, p{
+    color:rgb(0,0,0);
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-    width: 100px;
-
-
-    background-color: rgba(0, 47, 167, .5);
-
-    padding:20px;
+}
     
-    border:2px;
-    border-color:grey;
+.weeks{
+    margin: auto;
+    max-width: 600px;
+    padding-bottom: 30px;
+    background-color: rgb(220,220,220);
+
+      
+    border-width: 2px;
     border-style: solid;
     border-radius: 10px;
-
-    font-family: 'Courier New', Courier, monospace;
-    font-weight:700;
-    color:white;
-    
-    text-decoration: none;
-    
-}
-
-#link1:hover{
-
-    background-color: rgba(0, 47, 167, .8);
-
-    border:2px;
-    border-color:darkblue;
-    border-style: solid;
-    
+    border-color: rgb(6,85,53)
 }
 
 
-#link2{
-    display:block;
-    margin: auto;
-    text-align: center;
-    width: 100px;
+/* Set the apperance of the class, chart */
+.chart{
     
-    background-color: rgba(0, 47, 167, .5);
-
-    padding:20px;
-    
-    border:2px;
-    border-color:grey;
+    background-color: white;
+    width:380px;
+    border-width: 2px;
     border-style: solid;
     border-radius: 10px;
+    border-color: rgb(6,85,53);
+    padding: 10px;
 
-    font-family: 'Courier New', Courier, monospace;
-    font-weight:700;
-    color:white;
+    /* In this bit i'm trying to center the charts */
+    margin-left: 118px;
     
-    text-decoration: none;
-    
-}
-
-#link2:hover{
-
-    background-color: rgba(0, 47, 167, .8);
-
-    border:2px;
-    border-color:darkblue;
-    border-style: solid;
     
 }
+    
+
+/* Set the apperance for a particular chart */
+/* #Chart1{
+    border-color: blue;   
+} */
