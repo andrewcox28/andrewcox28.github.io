@@ -24,15 +24,47 @@
 
     </div>
 
-    <div>
-        <a href="week1.html" id="link1">Week 1</a>
+    <div class="myWeek1">
+        <h1>Week 1</h1>
+        
+        <h3>Inflation</h3>
+        <p>The first chart tracks the difference between UK inflation and its official target over time.</p>
+        <div class="chart" id="Chart1"></div>
+
+        <h3>Wages</h3>
+        <p>My second chart looks at real wages in the UK</p>
+        <div class="chart" id="Chart2"> </div>
+    </div> 
+
+    <div class="myWeek2">
+        <h1>Week 2</h1>
+
+        <h3>IMF Chart</h3>
+        <p>This chart is using IMF data to replicate the chart from the FT.</p>
+        <div class="chart" id="Chart3"></div>
+
+        <h3>Improved Chart</h3>
+        <p>This chart shows IMF lending as a proportion of global GDP, therefore, putting the chart into context.</p>
+        <div class="chart" id="Chart4"></div>
 
     </div>
 
-    <div>
-        <a href="week2.html" id="link2">Week 2</a>
 
-    </div>
 </body>
+
+<script>
+    //Define charts:
+    var myChart1 = "charts/chartINF1.json";
+    var myChart2 = "charts/labmkt7.json";
+    var myChart3 = "charts/IMF Lending.json";
+    var myChart3 = "charts/IMF Lending of GDP.json";
+
+
+    // Embed charts:
+    vegaEmbed('#Chart1', myChart1);
+    vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
+</script>
 
 </html>
