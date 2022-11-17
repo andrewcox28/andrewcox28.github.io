@@ -1,0 +1,25 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "CPI Weight: Coffee",
+  "title": {
+    "text": "CPI Weight: Coffee",
+    "subtitle": ["Parts per 1000"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 9,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/andrewcox28/andrewcox28.github.io/main/data/data_ONS_L85J.json",
+    "format": {"type": "json", "property": "years"}
+  },
+  "mark": "line",
+  "height": 200,
+  "width": 200,
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": null},
+    "y": {"field": "value", "type": "quantitative", "title": null},
+    "color": {"value": "#663300"}
+  },
+  "config": {}
+}

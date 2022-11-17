@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "CPI Index",
+  "title": {
+    "text": "CPI Index",
+    "subtitle": ["All Items 2015=100"],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 9,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/andrewcox28/andrewcox28.github.io/main/data/data_ONS_D7BT.json",
+    "format": {"type": "json", "property": "years"}
+  },
+  "mark": "line",
+  "height": 200,
+  "width": 200,
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": null},
+    "y": {"field": "value", "type": "quantitative", "title": null}
+  },
+  "config": {}
+}
