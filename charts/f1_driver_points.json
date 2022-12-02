@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A scatterplot showing horsepower and miles per gallons for various cars.",
+  "description": "A scatterplot showing total points and total GPs for F1 drivers",
   "data": {
     "values": [
       {
