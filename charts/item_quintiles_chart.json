@@ -1,0 +1,94 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/andrewcox28/andrewcox28.github.io/main/data/item_quintiles.csv"
+  },
+  "width": 650,
+  "height": 300,
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "index",
+          "value": [{"x": {"year": 1989}}],
+          "select": {
+            "type": "point",
+            "encodings": ["x"],
+            "on": "mouseover",
+            "nearest": true
+          }
+        }
+      ],
+      "transform": [{"filter": {"selection": "selectedItem"}}],
+      "mark": "point",
+      "encoding": {
+        "x": {"field": "dateISO", "type": "temporal", "title": null},
+        "opacity": {"value": 0}
+      }
+    },
+    {
+      "transform": [
+        {"filter": {"selection": "selectedItem"}},
+        {"filter": {"field": "quintiles", "oneOf": ["1", "5"]}},
+        {"lookup": "quintiles", "from": {"param": "index", "key": "quintiles"}},
+        {
+          "calculate": "datum.index && datum.index.mean_decile_price > 0 ? (datum.mean_decile_price - datum.index.mean_decile_price)/datum.index.mean_decile_price : 0",
+          "as": "indexed_mean_price"
+        }
+      ],
+      "selection": {
+        "selectedItem": {
+          "type": "single",
+          "fields": ["item"],
+          "bind": {
+            "input": "select",
+            "options": [
+              "Pasta",
+              "White Loaf of Bread",
+              "Chicken Breast",
+              "Eggs",
+              "Semi-Skimmed Milk",
+              "Beef Mince",
+              "Pint of Lager",
+              "Car Oil",
+              "Car MOT Test",
+              "Nursing Home",
+              "Shower Gel",
+              "Men's T-shirt"
+            ],
+            "name": "Pick an Item:"
+          }
+        }
+      },
+      "mark": "line",
+      "encoding": {
+        "x": {"field": "dateISO", "type": "temporal"},
+        "y": {
+          "field": "indexed_mean_price",
+          "type": "quantitative",
+          "axis": {"format": "%"},
+          "title": "Percentcage Change"
+        },
+        "color": {"field": "quintiles", "type": "nominal", "title": "Quintile"}
+      }
+    },
+    {
+      "transform": [{"filter": {"param": "index"}}],
+      "encoding": {
+        "x": {"field": "dateISO", "type": "temporal"},
+        "color": {"value": "firebrick"}
+      },
+      "layer": [
+        {"mark": {"type": "rule", "strokeWidth": 0.5}},
+        {
+          "mark": {"type": "text", "align": "center", "fontWeight": 100},
+          "encoding": {
+            "text": {"field": "dateISO", "timeUnit": "yearmonth"},
+            "y": {"value": -10}
+          }
+        }
+      ]
+    }
+  ],
+  "config": {}
+}
