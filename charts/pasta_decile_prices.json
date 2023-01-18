@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Price of pasta",
+  "data": {
+    "url": "https://raw.githubusercontent.com/andrewcox28/andrewcox28.github.io/main/data/500g_pasta.csv"
+    },
+
+    "transform": [
+    {
+      "filter": {
+        "field": "deciles",
+        "oneOf": ["1", "5", "10"]
+      }},
+      {"filter": "datum.year>minYear"},
+      {"filter": "datum.year<maxYear"}
+      
+      ],
+
+  
+  "mark": "line",
+  "height": 500,
+  "width": 500,
+  "encoding": {
+    "x": {"field": "dateISO", "type": "temporal"},
+
+    "y": {"field": "mean_decile_price", "type": "quantitative"},
+
+    "color": {"field": "deciles"}
+  },
+
+
+    "params": [    
+      {"name":"minYear", "value":1988,
+         "bind":{
+           "input": "range",
+           "min": 1988, 
+           "max": 2022, 
+           "step": 1,
+           "name": "Start year:"}
+      },
+
+      {"name":"maxYear", "value":2022,
+         "bind":{
+           "input": "range",
+           "min": 1988, 
+           "max": 2022, 
+           "step": 1,
+           "name": "End year:"}
+      }
+    ],
+  
+  "config": {}
+}
+

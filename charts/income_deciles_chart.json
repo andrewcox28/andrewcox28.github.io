@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/andrewcox28/andrewcox28.github.io/main/data/Inflation_incomedecile.csv"
+  },
+  "width": 300,
+  "height": 300,
+  "mark": {"type": "bar", "width": 20},
+  "encoding": {
+    "x": {"field": "Decile", "type": "quantitative"},
+    "y": {"field": "CPI by income decile ", "type": "quantitative"},
+    "tooltip": [{"field": "CPI by income decile ", "type": "quantitative"}]
+  },
+  "config": {}
+}
