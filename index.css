@@ -7,173 +7,95 @@
 
 h1{
     font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
     font-weight: 550;
-    /* background-color: blue; */
     text-align: center;
+    color: white;
+    margin: 0
 }
 
 h2{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: larger;
+    font-size: 30px;
+    color: #17252A;
+    margin: 10
 
 }
 
-
-p{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-
-    color:black;
-    /* background-color: white; */
-}
 
 
 /* AREAS OF THE PAGE */
 
 body{
-    background-color: rgba(200,200,200);
+    background-color: #3AAFA9;
 }
 
-.wrap{
-    background-color: aqua;
+.Wrap{
+    padding: 0px;
+}
+
+.links{
+    padding-top: 30px;
+}
+
+.link{
+    padding-bottom: 20px
+}
+
+.linkbody{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 
 
 
-/* BUTTONS */
-
-a{
-    border: 5px;
-    border-color: black;
-    border-style: solid;
-
-    margin:20px
-}
-
-
-
-#link1{
+#link{
     display:block;
     margin: auto;
     text-align: center;
     width: 100px;
 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #DEF2F1;
+    text-decoration: none;
+    font-size: larger;
 
-    background-color: rgba(0, 47, 167, .5);
+    background-color: #2B7A78;
 
-    padding:20px;
+    padding:15px;
     
     border:2px;
-    border-color:grey;
+    border-color:#17252A;
     border-style: solid;
     border-radius: 10px;
 
-    font-family: 'Courier New', Courier, monospace;
-    font-weight:700;
-    color:white;
-    
-    text-decoration: none;
-    
 }
 
-#link1:hover{
+#link:hover{
 
-    background-color: rgba(0, 47, 167, .8);
+    background-color: #2B7A78;
 
-    border:2px;
-    border-color:darkblue;
-    border-style: solid;
-    
-}
-
-
-#link2{
-    display:block;
-    margin: auto;
     text-align: center;
-    width: 100px;
-    
-    background-color: rgba(0, 47, 167, .5);
-
-    padding:20px;
-    
-    border:2px;
-    border-color:grey;
-    border-style: solid;
-    border-radius: 10px;
-
-    font-family: 'Courier New', Courier, monospace;
-    font-weight:700;
-    color:white;
-    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 450;
+    color: white;
     text-decoration: none;
-    
-}
+    font-size: larger;
 
-#link2:hover{
-
-    background-color: rgba(0, 47, 167, .8);
+    padding:18px;
 
     border:2px;
-    border-color:darkblue;
+    border-color:white;
     border-style: solid;
     
 }
-
-
-
-
-#link4{
-    background-color: yellow;
-
-    padding:20px;
-    
-    border:20px;
-    border-color:black;
-    border-style: solid;
-    border-radius: 10px;
-
-    font-family: 'Courier New', Courier, monospace;
-    font-weight:700;
-    color:grey;
-    
-    text-decoration: none;
-
-    animation: border-pulsate1 4s infinite;
-}
-
-
-
-
-
-/* CODE FOR PUSLING BORDERS */
-  @keyframes border-pulsate1 {
-    0%   { border-color: rgba(230, 34, 75, 1); }
-    50%  { border-color: rgba(230, 34, 75, 0); }
-    100% { border-color: rgba(230, 34, 75, 1); }
-  }
-  
-  @keyframes border-pulsate2 {
-    0%   { border-color: #22e68b}
-    10%  { border-color: rgba(230, 34, 75, 0)}
-    20%  { border-color: rgba(230, 34, 75)}
-    30%  { border-color: rgba(230, 34, 75, 0)}
-    40%  { border-color: rgba(0, 47, 167)}
-    50%  { border-color: rgba(230, 34, 75, 0)}
-    60%  { border-color: rgba(250, 250, 0)}
-    70%  { border-color: rgba(230, 34, 75, 0)}
-    80% { border-color: #22e68b}
-  }
-
-  @keyframes myAnimation {
-    0%   {border-color: #22e68b; background-color: black}      
-    50%  {border-color: black; background-color:yellow}
-    
-  }
-/* CODE FOR PUSLING BORDERS */
-  
-
