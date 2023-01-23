@@ -13,7 +13,7 @@
   },
   "transform": [{"calculate": "datum.Totals/datum.GDP", "as": "Debt_GDP"}],
   "height": 300,
-  "width": 300,
+  "width": "container",
   "mark": {"type": "bar", "color": "rgb(0,47,167"},
   "encoding": {
     "x": {

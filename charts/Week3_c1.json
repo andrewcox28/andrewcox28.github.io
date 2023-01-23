@@ -3369,7 +3369,7 @@
     ]
   },
   "mark": "area",
-  "width": 300,
+  "width": "container",
   "height": 300,
   "encoding": {
     "x": {

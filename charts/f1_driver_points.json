@@ -2387,7 +2387,7 @@
   },
   "params": [{"name": "grid", "select": "interval", "bind": "scales"}],
   "mark": {"type": "point"},
-  "width": 300,
+  "width": "container",
   "height": 300,
   "encoding": {
     "x": {"field": "Total GPs", "type": "quantitative"},

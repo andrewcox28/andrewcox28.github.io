@@ -3368,7 +3368,7 @@
       {"Country": "Italy", "TIME_PERIOD": "2022-09", "unemployment_rate": 7.9}
     ]
   },
-  "width": 300,
+  "width": "container",
   "height": 300,
   "mark": "line",
   "encoding": {
